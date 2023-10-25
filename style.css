@@ -7,5 +7,83 @@
 }
 
 body {
+    background-image: url(./assets/githubBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     overflow-y: hidden;
+}
+
+body img{
+    width: 100px;
+    height: auto;
+
+}
+
+#GHUniverseBar {
+    display: solid;
+    align-items: center;
+    font-size: 25px;
+    width: 380px;
+    height: auto;
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 60px;
+  }
+  
+  #GHUniverseBar img {
+    max-width: 25px; /* Adjust the max-width to your desired image size */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-right: 10px; /* Optional: Add some spacing between the image and text */
+  }
+  
+  #GHUniverseBar p {
+    border: solid 2.5px;
+    background-color: rgba(24, 21, 21, 0.5);
+    font-size: 15px;
+    color: white;
+    border-color: black;
+    border-radius: 50px;
+    padding: 10px; /* Increase padding to center the text vertically */
+    text-align: justify; /* Center the text horizontally */
+    display: flex;
+    align-items: center; /* Center the text vertically */
+    margin-top: 20px;
+  }
+
+.imgcontainer{
+    display: inline-block;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+#catlogo{
+    width: 50px;
+    height: auto;
+}
+#whitelogo{
+    margin-left: 5px;
+}
+
+#letsbuild{
+    color: white;
+    size: 30px;
+    display: flex;
+    margin-left: 64px;
+    margin-top: 525px;
+    margin-bottom: 10px;
+
+}
+
+#aiplatf{
+    color: antiquewhite;
+    size: 25px;
+    display: flex;
+    margin-left: 62px;
+
+}
+
+.pagecnt1{
+    font-family: Libre Baskerville;
 }
