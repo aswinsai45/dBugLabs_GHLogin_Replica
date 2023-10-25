@@ -8,6 +8,7 @@
 
 body {
     background-image: url(./assets/githubBackground.jpg);
+    background-color:black;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -23,19 +24,20 @@ body img{
 
 #GHUniverseBar {
     display: solid;
+    font-family: Poppins;
     align-items: center;
     font-size: 25px;
-    width: 380px;
+    width: 400px;
     height: auto;
     position: absolute;
-    margin-top: 400px;
+    margin-top: 200px;
     margin-left: 60px;
   }
   
   #GHUniverseBar img {
-    max-width: 25px; /* Adjust the max-width to your desired image size */
-    height: auto; /* Maintain the image's aspect ratio */
-    margin-right: 10px; /* Optional: Add some spacing between the image and text */
+    max-width: 25px;
+    height: auto; 
+    margin-right: 10px; 
   }
   
   #GHUniverseBar p {
@@ -45,10 +47,10 @@ body img{
     color: white;
     border-color: black;
     border-radius: 50px;
-    padding: 10px; /* Increase padding to center the text vertically */
-    text-align: justify; /* Center the text horizontally */
+    padding: 10px;
+    text-align: justify;
     display: flex;
-    align-items: center; /* Center the text vertically */
+    align-items: center;
     margin-top: 20px;
   }
 
@@ -71,7 +73,7 @@ body img{
     size: 30px;
     display: flex;
     margin-left: 64px;
-    margin-top: 525px;
+    margin-top: 325px;
     margin-bottom: 10px;
 
 }
@@ -85,5 +87,35 @@ body img{
 }
 
 .pagecnt1{
-    font-family: Libre Baskerville;
+    font-family: Poppins;
+}
+
+#signinbox{
+    border: solid 2px purple;
+    background-color: rgba(24, 21, 21, 0.5);
+    color: antiquewhite;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+    height: auto;
+    margin-left: 62px;
+    margin-top:20px;
+    border-radius: 10px;
+    padding: 5px
+}
+
+#trustedimg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  
+#trustedimg img {
+    max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
+    height: auto; /* Maintain the image's aspect ratio */
+    margin-bottom: 500px;
+    display: flex;
+    transform: rotate(90deg);
+    width: 500px;
+    margin-left: 200px;
 }
